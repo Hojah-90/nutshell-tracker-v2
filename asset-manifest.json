@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/nutshell-tracker-v2/static/css/main.e5bf3b52.css",
-    "main.js": "/nutshell-tracker-v2/static/js/main.785f3fa5.js",
+    "main.js": "/nutshell-tracker-v2/static/js/main.e7d9c64b.js",
     "static/js/239.99efae46.chunk.js": "/nutshell-tracker-v2/static/js/239.99efae46.chunk.js",
     "static/js/977.01d8927b.chunk.js": "/nutshell-tracker-v2/static/js/977.01d8927b.chunk.js",
     "static/js/455.44c7df82.chunk.js": "/nutshell-tracker-v2/static/js/455.44c7df82.chunk.js",
     "index.html": "/nutshell-tracker-v2/index.html",
     "main.e5bf3b52.css.map": "/nutshell-tracker-v2/static/css/main.e5bf3b52.css.map",
-    "main.785f3fa5.js.map": "/nutshell-tracker-v2/static/js/main.785f3fa5.js.map",
+    "main.e7d9c64b.js.map": "/nutshell-tracker-v2/static/js/main.e7d9c64b.js.map",
     "239.99efae46.chunk.js.map": "/nutshell-tracker-v2/static/js/239.99efae46.chunk.js.map",
     "977.01d8927b.chunk.js.map": "/nutshell-tracker-v2/static/js/977.01d8927b.chunk.js.map",
     "455.44c7df82.chunk.js.map": "/nutshell-tracker-v2/static/js/455.44c7df82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5bf3b52.css",
-    "static/js/main.785f3fa5.js"
+    "static/js/main.e7d9c64b.js"
   ]
 }
