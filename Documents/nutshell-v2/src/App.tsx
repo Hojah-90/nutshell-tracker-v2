@@ -52,7 +52,6 @@ const Tracker: React.FC = () => {
   const dayCycle: string[] = [...days, ...days, ...days, ...days, ...days].slice(0, 31);
   const dates: number[] = Array.from({ length: 31 }, (_, i) => i + 1);
 
-  // Function to add a new subject and checkbox row
   const addSubject = () => {
   setSubjects((prevSubjects) => {
     const newSubjects = [...prevSubjects, `Subject ${prevSubjects.length + 1}`];
