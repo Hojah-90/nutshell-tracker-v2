@@ -1,21 +1,22 @@
-import React from 'react';
+import React from "react";
 
 interface HeaderProps {
-  headerFont: string;
-  monthColor: string;
+  headerFont?: string; // Make optional with a default
 }
 
-const Header: React.FC<HeaderProps> = ({ headerFont, monthColor }) => {
+const Header: React.FC<HeaderProps> = ({ headerFont = "Sacramento" }) => {
   const headerStyle = {
     fontFamily: `${headerFont}, cursive`,
-    color: monthColor,
+    color: "#4B0082", // Matches text-lavender-dark
+    textAlign: "center" as const,
   };
 
   return (
-    <div className="relative z-0">
-      <div className="month-splash" style={{ color: monthColor }}></div>
-      <h1 className="paintbrush text-5xl font-bold text-center mb-4 relative z-10" style={headerStyle}>December 2025</h1>
-    </div>
+    <header style={headerStyle}>
+      <h2 className="font-sacramento text-lavender-dark">
+        {new Date().toLocaleString("default", { month: "long" })} {new Date().getFullYear()}
+      </h2>
+    </header>
   );
 };
 

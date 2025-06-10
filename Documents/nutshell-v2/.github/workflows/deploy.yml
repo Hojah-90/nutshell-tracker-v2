@@ -12,6 +12,7 @@ jobs:
           node-version: '18'
       - run: npm install
       - run: npm run build
+      - run: cp build/index.html build/404.html
       - run: touch build/.nojekyll
       - uses: peaceiris/actions-gh-pages@v3
         with:
