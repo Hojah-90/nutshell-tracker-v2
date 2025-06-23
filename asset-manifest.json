@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nutshell-tracker-v2/static/css/main.2437d195.css",
-    "main.js": "/nutshell-tracker-v2/static/js/main.ef9db04e.js",
+    "main.css": "/nutshell-tracker-v2/static/css/main.1f195db0.css",
+    "main.js": "/nutshell-tracker-v2/static/js/main.843b7bad.js",
     "index.html": "/nutshell-tracker-v2/index.html",
-    "main.2437d195.css.map": "/nutshell-tracker-v2/static/css/main.2437d195.css.map",
-    "main.ef9db04e.js.map": "/nutshell-tracker-v2/static/js/main.ef9db04e.js.map"
+    "main.1f195db0.css.map": "/nutshell-tracker-v2/static/css/main.1f195db0.css.map",
+    "main.843b7bad.js.map": "/nutshell-tracker-v2/static/js/main.843b7bad.js.map"
   },
   "entrypoints": [
-    "static/css/main.2437d195.css",
-    "static/js/main.ef9db04e.js"
+    "static/css/main.1f195db0.css",
+    "static/js/main.843b7bad.js"
   ]
 }
